@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="6dp"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#EDE4E0">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_player"
@@ -21,6 +22,7 @@
         android:layout_alignParentRight="true"
         android:layout_margin="32dp"
         android:src="@drawable/ic_tambah"
-        app:tint="@null"/>
+        app:tint="@null"
+        android:backgroundTint="#9F8772"/>
 
 </RelativeLayout>

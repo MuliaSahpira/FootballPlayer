@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="6dp"
-    tools:context=".TambahActivity">
+    tools:context=".TambahActivity"
+    android:background="#EDE4E0">
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,6 +46,8 @@
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
         android:text="Simpan"
-        android:textSize="21sp"/>
+        android:textSize="21sp"
+        android:backgroundTint="#C8DBBE"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
